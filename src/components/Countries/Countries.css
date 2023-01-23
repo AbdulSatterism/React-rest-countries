@@ -1,5 +1,18 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
 .countries-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+}
+
+.cart-container {
+    background-color: #969491;
+    border-radius: 10px;
+
 }
